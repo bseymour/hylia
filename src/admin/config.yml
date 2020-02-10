@@ -6,7 +6,7 @@ site_url: "https://example.com"
 media_folder: "src/images"
 public_folder: "images"
 media_library:
-  name: cloudinary,
+  name: cloudinary
   config:         
     cloud_name: hylia
     api_key: 763112845985572
