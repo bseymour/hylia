@@ -1,5 +1,5 @@
 ---
-title: 'A post with figures and video 2'
+title: 'Another post with figures and video'
 socialImage: images/demo-image-1.jpg
 date: '2019-06-18'
 tags:
