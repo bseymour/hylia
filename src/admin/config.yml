@@ -5,6 +5,18 @@ publish_mode: editorial_workflow
 site_url: "https://example.com"
 media_folder: "src/images"
 public_folder: "images"
+media_library:
+  name: cloudinary,
+  config:
+    default_transformations:
+              -   - fetch_format: auto
+                    quality: auto
+                  - width: 300
+                    crop: fill
+                  - overlay: {font_family: "Verdana", font_size: 25, font_weight: "bold", text_decoration: "underline", letter_spacing: 8, text: "Hello"}
+                    effect: grayscale
+    cloud_name: hylia
+    api_key: 763112845985572
 collections:
   - name: "pages"
     label: "Pages"
