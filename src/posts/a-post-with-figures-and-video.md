@@ -1,5 +1,6 @@
 ---
-title: A post with figures and video
+title: 'A post with figures and video :: 2'
+socialImage: images/demo-image-1.jpg
 date: '2019-06-18'
 tags:
   - demo-content
