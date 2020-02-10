@@ -3,6 +3,8 @@ backend:
   branch: master
 publish_mode: editorial_workflow
 site_url: "https://example.com"
+media_folder: "src/images"
+public_folder: "images"
 media_library:
   name: cloudinary,
   config:         
